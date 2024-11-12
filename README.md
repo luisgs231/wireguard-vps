@@ -5,9 +5,10 @@ Scripts automate the installation and use of Wireguard on AWS with Ubuntu Server
 
 ### Installation
 ```
-git clone https://github.com/pprometey/wireguard_aws.git wireguard_aws
-cd wireguard_aws
-sudo ./initial.sh
+git clone https://github.com/luisgs231/wireguard_vps.git wireguard_aws
+cd wireguard_vps
+find -type f -iname "*.sh" -exec chmod +x {} \;
+./initial.sh
 ```
 
 The `initial.sh` script removes the previous Wireguard installation (if any) using the `remove.sh` script. It then installs and configures the Wireguard service using the `install.sh` script. And then creates a client using the `add-client.sh` script.
