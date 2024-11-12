@@ -2,7 +2,7 @@
 
 apt install software-properties-common -y
 apt update
-apt install wireguard wireguard-tools qrencode -y
+apt install wireguard wireguard-tools qrencode iptables -y
 
 
 NET_FORWARD="net.ipv4.ip_forward=1"
