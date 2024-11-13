@@ -1,5 +1,5 @@
-# Install and use AWS-based Wireguard
-Scripts automate the installation and use of Wireguard on AWS with Ubuntu Server 18.04
+# Install and use Wireguard in a VPS
+Scripts automate the installation and use of Wireguard on VPS
 
 ## How use
 
